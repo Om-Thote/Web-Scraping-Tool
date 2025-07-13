@@ -73,3 +73,4 @@ pip install -r requirements.txt
 
 ### Running command 
 python scraper.py --web 
+Access dashboard at: http://localhost:5001 
