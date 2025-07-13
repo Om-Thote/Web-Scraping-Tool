@@ -59,6 +59,20 @@ A powerful web scraping tool that extracts detailed company information from sea
 - Results visualization
 - Scheduled scraping jobs
 
+###Implemented Features
+
+✔️ Core Features:
+
+User authentication (JWT/OAuth)
+Dashboard with [list key features, e.g., real-time data visualization, CRUD operations]
+Responsive UI using Tailwind CSS
+[Add any other notable features]
+✔️ Data Extraction Levels Demonstrated:
+
+Basic: [E.g., CSV/API data import, simple filtering]
+Medium: [E.g., pagination, search functionality]
+Advanced: [E.g., real-time updates, WebSocket integration]
+
 ## Setup Instructions
 
 ### Prerequisites
