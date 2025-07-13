@@ -1,0 +1,30 @@
+builtwith_api: "1d188902-5dfd-4c50-ad62-9c650dc2bf65"
+
+user_agents:
+  - "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+  - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
+
+rate_limit: 30
+min_delay: 2
+max_delay: 5
+
+selectors:
+  company_name:
+    - "h1"
+    - "meta[property='og:title']"
+  description:
+    - "meta[name='description']"
+  email:
+    - "a[href^='mailto:']"
+    - "regex:[\\w\\.-]+@[\\w\\.-]+\\.[\\w]+"
+  phone:
+    - "a[href^='tel:']"
+    - "regex:\\d{3}[-\\s]?\\d{3}[-\\s]?\\d{4}"
+  social:
+    - "a[href*='linkedin.com']"
+    - "a[href*='twitter.com']"
+
+tests:
+  test_urls:
+    - "https://example.com"
+    - "https://google.com"

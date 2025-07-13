@@ -1,0 +1,9 @@
+selenium
+webdriver-manager
+beautifulsoup4
+requests
+pandas
+tldextract
+flask
+apscheduler
+pyyaml
